@@ -32,7 +32,7 @@ void MappedUIExample::ExampleElementChanged(UIElement* parentClass, UIElement* e
         parentClass->ShowMapped(true);
         /// say we want to get the mapped caller parent of the recieved element
         auto * mappedCaller = element->GetMappedParent();
-        /// in this case the caller would be the ExampleElentChanged object
+        /// in this case the caller would be the MappedUIExample object
 
         /// Show the Slider
         parentClass->ShowMappedChild("Slider 1",true);
